@@ -3,7 +3,7 @@
  * Caches essential files for offline use.
  */
 
-const CACHE_NAME = 'thirty-recipes-v1';
+const CACHE_NAME = 'thirty-recipes-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
