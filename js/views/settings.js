@@ -109,6 +109,21 @@ export default class SettingsView {
                     </label>
                 </div>
 
+                <!-- How it Works Guide -->
+                <div style="margin-bottom: 20px; border-top: 1px solid var(--border-color); padding-top: 12px;">
+                    <button id="btn-toggle-guide" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background: none; border: none; font-size: 0.95rem; font-weight: 700; color: var(--primary-color); cursor: pointer; padding: 4px 0; font-family: inherit; outline: none;">
+                        <span>How it Works (Quick Start Guide)</span>
+                        <svg id="guide-arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="transform: rotate(0deg); transition: transform 0.2s;"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    
+                    <div id="guide-content" style="display: none; margin-top: 10px; font-size: 0.825rem; color: var(--text-secondary); line-height: 1.5; flex-direction: column; gap: 10px; max-height: 220px; overflow-y: auto; padding: 8px; border-radius: 12px; background: rgba(15, 118, 110, 0.04); border: 1px solid rgba(15, 118, 110, 0.1);">
+                        <p style="margin: 0;"><strong>📱 Install as App:</strong> Open this site in Safari (iOS) or Chrome (Android). Tap <strong>Share/Menu</strong> and select <strong>"Add to Home Screen"</strong> to run fullscreen and offline as a PWA app.</p>
+                        <p style="margin: 0;"><strong>🔒 Private Local Data:</strong> All favorites, cooking history, and custom pantry items are stored 100% locally inside your device browser cache. No accounts needed, and your logs are private to you.</p>
+                        <p style="margin: 0;"><strong>🛒 Smart Grocery Lists:</strong> Add meals to your <strong>On-Deck</strong> queue. The Grocery tab auto-combines ingredients. Tap checkmark <code>✓</code> next to any item to mark it in stock and remove it from your shopping list.</p>
+                        <p style="margin: 0;"><strong>💾 Secure Backups:</strong> Use <strong>"Export Backup"</strong> to download a settings file. You can import this file to restore your stats if you clear your browser cache or switch devices.</p>
+                    </div>
+                </div>
+
                 <!-- Backup & Actions -->
                 <div style="border-top: 1px solid var(--border-color); padding-top: 16px; display: flex; flex-direction: column; gap: 8px;">
                     <div style="display: flex; gap: 8px;">
@@ -195,6 +210,17 @@ export default class SettingsView {
         pantryAddBtn.addEventListener('click', addPantryItem);
         pantryInput.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') addPantryItem();
+        });
+
+        // Toggle How it Works Guide
+        const toggleGuideBtn = document.getElementById('btn-toggle-guide');
+        const guideContent = document.getElementById('guide-content');
+        const guideArrow = document.getElementById('guide-arrow');
+
+        toggleGuideBtn.addEventListener('click', () => {
+            const isHidden = guideContent.style.display === 'none';
+            guideContent.style.display = isHidden ? 'flex' : 'none';
+            guideArrow.style.transform = isHidden ? 'rotate(180deg)' : 'rotate(0deg)';
         });
 
         // Preferences Wake Lock
