@@ -1,0 +1,18 @@
+{
+  "name": "My Recipes",
+  "short_name": "Recipes",
+  "description": "Personal progressive web app for managing and cooking recipes.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#DD2476",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Environments and dependencies
+node_modules/
+.env*
+.cache/
+
+# Local agents and plugins configurations
+.agents/
+.gemini/
