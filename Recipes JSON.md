@@ -3748,7 +3748,7 @@
         "id": "chipotle-lime-pork-sweet-potato-bake",
         "title": "Chipotle-Lime Pork & Sweet Potato Bake with Charred Pepper-Broccoli",
         "tags": {
-            "cuisine": "tex-mex-pork-fusion",
+            "cuisine": "tex-mex-fusion",
             "protein": "pork",
             "diet": [
                 "high-protein",
@@ -3931,7 +3931,7 @@
         "id": "black-pepper-thyme-chicken-quinoa-bowl",
         "title": "Black Pepper & Thyme Chicken Quinoa Bowl with Roasted Carrots and Spinach",
         "tags": {
-            "cuisine": "classic-american-chicken-fusion",
+            "cuisine": "classic-american-fusion",
             "protein": "chicken",
             "diet": [
                 "high-protein",
@@ -4115,7 +4115,7 @@
         "id": "greek-spiced-beef-sweet-potato-wraps",
         "title": "Greek-Spiced Beef & Sweet Potato Hash Wraps with Green Herb Drizzle",
         "tags": {
-            "cuisine": "mediterranean-beef-fusion",
+            "cuisine": "mediterranean-fusion",
             "protein": "beef",
             "diet": [
                 "high-protein",
@@ -4305,7 +4305,7 @@
         "id": "ginger-garlic-chicken-wild-rice-bowl",
         "title": "Ginger-Garlic Chicken & Wild Rice Bowl with Charred Carrots and Broccoli",
         "tags": {
-            "cuisine": "asian-inspired-chicken-fusion",
+            "cuisine": "asian-inspired-fusion",
             "protein": "chicken",
             "diet": [
                 "high-protein",
@@ -5626,7 +5626,7 @@
         "id": "balsamic-beef-levantine-sweet-potato-bake",
         "title": "Levantine-Spiced Balsamic Beef & Sweet Potato Bake with Charred Zucchini-Pepper Medley",
         "tags": {
-            "cuisine": "levantine-beef-fusion",
+            "cuisine": "levantine-fusion",
             "protein": "beef",
             "diet": [
                 "high-protein",
@@ -5816,7 +5816,7 @@
         "id": "chipotle-lime-chicken-tex-mex-quinoa-bowl",
         "title": "Chipotle-Lime Chicken Tex-Mex Quinoa Bowl with Charred Corn and Peppers",
         "tags": {
-            "cuisine": "tex-mex-chicken-fusion",
+            "cuisine": "tex-mex-fusion",
             "protein": "chicken",
             "diet": [
                 "high-protein",
@@ -5999,7 +5999,7 @@
         "id": "mediterranean-pork-sweet-potato-wraps",
         "title": "Mediterranean Pork & Sweet Potato Hash Wraps with Lemon-Herb Demi Drizzle",
         "tags": {
-            "cuisine": "mediterranean-pork-fusion",
+            "cuisine": "mediterranean-fusion",
             "protein": "pork",
             "diet": [
                 "high-protein",
@@ -6217,7 +6217,7 @@
         "id": "levantine-chicken-wild-rice-bake",
         "title": "Levantine-Spiced Chicken & Brussels Sprouts Bake with Apple Cider Wild Rice",
         "tags": {
-            "cuisine": "levantine-chicken-fusion",
+            "cuisine": "levantine-fusion",
             "protein": "chicken",
             "diet": [
                 "high-protein",
@@ -7020,7 +7020,7 @@
         "id": "classic-american-pork-sweet-potato-bake",
         "title": "Classic American Pork & Sweet Potato Bake with Charred Asparagus and Apple-Mustard Drizzle",
         "tags": {
-            "cuisine": "classic-american-pork-fusion",
+            "cuisine": "classic-american-fusion",
             "protein": "pork",
             "diet": [
                 "high-protein",
@@ -7189,7 +7189,7 @@
         "id": "asian-inspired-beef-quinoa-bowl",
         "title": "Asian-Inspired Beef & Quinoa Bowl with Charred Snap Peas and Bok Choy",
         "tags": {
-            "cuisine": "asian-inspired-beef-fusion",
+            "cuisine": "asian-inspired-fusion",
             "protein": "beef",
             "diet": [
                 "high-protein",
@@ -7365,7 +7365,7 @@
         "id": "mediterranean-chicken-sweet-potato-wraps",
         "title": "Mediterranean Chicken & Sweet Potato Hash Wraps with Tomato-Cucumber Salad",
         "tags": {
-            "cuisine": "mediterranean-chicken-fusion",
+            "cuisine": "mediterranean-fusion",
             "protein": "chicken",
             "diet": [
                 "high-protein",
@@ -7576,7 +7576,7 @@
         "id": "texmex-beef-tacos-cilantro-lime-quinoa",
         "title": "Tex-Mex Beef Tacos with Cilantro-Lime Quinoa and Charred Red Cabbage Slaw",
         "tags": {
-            "cuisine": "tex-mex-beef-fusion",
+            "cuisine": "tex-mex-fusion",
             "protein": "beef",
             "diet": [
                 "high-protein",
